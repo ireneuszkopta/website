@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	
+	<head> 
+		<title>Irek Kopta IT Junior</title>
+		<link rel ="stylesheet" href = "reset.css" type = "text/css">
+		<link rel ="stylesheet" href = "style.css" type = "text/css">
+		<!--[if lt IE 8]>
+		<link rel="stylesheet" type="text/css" href="styleIe7andLower.css" />
+		<![endif]-->
+		<meta charset="UTF-8">
+		<meta name="author" content="Irek Kopta">
+		<meta name="description" content="Self taught Junior IT">
+		<meta name="keywords" content="Irek Kopta, IT JUNIOR,javascript,css,html,php,resume">
+		<meta name="robots" content="index, follow">
+		<meta name="revisit-after" content="7 days">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		<script src="js/modernizr.custom.js"></script>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/2.3.1/picturefill.min.js"></script>
+	</head>
+	
+	<body>
+
+		<header>
+			<!--mobile menu button-->
+			<div class="top">
+  				<a href="#" class="menu"></a>
+			</div>
+
+			<nav>
+				<ul id = "nav">
+					<li><a href ="">About</a></li>
+					<li><a href ="">Contact</a></li>
+					<li><a href="books.html">Reviews</a></li>
+				</ul>
+			</nav>
+
+			<div id = "header">
+				<!-- using picturefill -->
+				<picture>
+					<!--[if IE 9]><video style="display: none;"><![endif]-->
+					<source srcset="img/feature-1600.jpg" media="(min-width: 1600px)">
+					<source srcset="img/feature-1280.jpg" media="(min-width: 1200px)">
+					<source srcset="img/feature-1024.jpg" media="(min-width: 1024px)">
+					<source srcset="img/feature-640.jpg" media="(min-width: 640px)">
+					<source srcset="img/feature-320.jpg" media="(min-width: 320px)">
+					<!--[if IE 9]></video><![endif]-->
+					<img srcset="img/feature-1600.jpg" alt="Feature picture of a website showing nature and name of the developer">
+				</picture>
+			</div>
+			<!-- Feature button -->
+			<button id="learnMoreBtn" class="scroll">LEARN MORE</button>
+
+		</header>
+		
+		<div id = "maincontent">
+
+			<div id = "About">
+				<h1>About</h1>
+				<div class="info clear">
+					<img class="largeImg"src="img/irek-lrg.jpg" alt="about">
+					<p><img class="mobileImg" src="img/irek.jpg" alt="about-mobile">Hello! I’m currently working as a Chef and trying to get in to IT. I'm studying towards My Comptia A+ exams at the moment. I passed 220-901 and getting ready for 220-902 test. In the past, I learnt web development basics including Html5, Css3 and Javascript. I'm motivated and determined about changing my career path.</p>
+				</div>
+				
+				<div id="skills">
+						<h2>Skills</h2>
+						<p>HTML 5</p>
+						<div class= "skills" data-skill="51%"></div>
+						<p>CSS 3</p>
+						<div class= "skills" data-skill="41%"></div>
+						<p>JAVASCRIPT</p>
+						<div class= "skills" data-skill="31%"></div>
+						<p>JQUERY</p>
+						<div class= "skills" data-skill="36%"></div>
+				</div>
+			</div>
+
+			<div id = "Contact">
+				<h1>Contact</h1>
+				<div id= "form">
+					<h2>Hello!</h2>
+					<form action="" method="">
+						<label for = "name">Your Name</label>
+						<input type= "text" id= "name" name="name" />
+						<label for = "email">Your email</label>
+						<input type= "text" id= "email" name="email"/>
+						<label for = "message">Your message</label>
+						<textarea   id= "message" name="message"></textarea>
+						<input type= "submit" id ="button" value="Send!"/>
+						<!-- msg for form validation -->
+						<p id = "errormsg">There are errors in Form!</p>
+					</form>
+					<!-- msg for form validation -->
+					<p class= "success hidden">message send!</p>
+				</div>
+				<div class="twitter">
+					<!--  twitter api -->
+					<a class="twitter-timeline" href="https://twitter.com/kopcikx" data-widget-id="608047876623728640">Tweets by @kopcikx</a>
+				</div>
+			</div>
+		</div>
+		<footer> <small>Content is copyright &copy; 2016 Irek Kopta and code samples are licensed under MIT.</small></footer>
+		<script src = 'http://code.jquery.com/jquery-latest.min.js'></script>
+		<script src = "js/script.js"></script>	
+		<script src = "js/form_validation.js"></script>
+		
+	</body>
+
+</html>

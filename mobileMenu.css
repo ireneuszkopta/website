@@ -1,0 +1,17 @@
+
+#MobileMenu{
+	background: url("img/menu.png") no-repeat;
+	position: absolute;
+	top:0;
+	left: 0;
+	background-size: 100% 100%;
+	background-position: center;
+	width: 10%;	
+	height: 10%;
+	display: block;
+}
+
+ul{
+	position: normal;
+}
+
